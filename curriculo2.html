@@ -1,16 +1,140 @@
 <!DOCTYPE html>
-<html lang="pt-bt">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <title>Currículo 2 </title>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - Juliana Lima</title>
+
+    <style>
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            background-color: #fff;
+            width: 85%;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 40px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            border-radius: 10px;
+        }
+
+        /* Cabeçalho */
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            margin-bottom: 5px;
+            color: #004080;
+        }
+
+        .header p {
+            margin: 4px 0;
+            color: #333;
+        }
+
+        /* Faixas cinzas de seção */
+        .section-title {
+            background-color: #ddd;
+            font-weight: bold;
+            text-transform: uppercase;
+            padding: 10px;
+            margin: 25px 0 10px;
+            border-radius: 4px;
+        }
+
+        /* Texto normal */
+        p, li {
+            color: #333;
+            line-height: 1.5;
+        }
+
+        /* Subtítulos em negrito */
+        .subtitulo {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        /* Histórico profissional em grid */
+        .historico {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 20px;
+            margin-top: 15px;
+        }
+
+        .coluna-esquerda {
+            font-weight: bold;
+            color: #004080;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+    </style>
 </head>
+
 <body>
-  <h1>Juliana Lima</h1>
-  <p>J.Lima@exemplo.br |21234567890 | Rua centro e Sessenta e Seis-D 8326, Volta Redonda, Rio de Janeiro 25540-355</p>
+    <div class="container">
+        <!-- Cabeçalho -->
+        <div class="header">
+            <h1>Juliana Lima</h1>
+            <p>📧 J.Lima@exemplo.br | 📞 (21) 2345-6789</p>
+            <p>🏠 Rua Centro e Sessenta e Seis D 8326, Volta Redonda, Rio de Janeiro 25540-244</p>
+        </div>
 
-  <div class="section-title">RESUMO PROFISSIONAL </div>
-  <p>Professor de inglês, como Segunda Língua competente na utilização de métodos de ensino eficazes, centrado-se nas necessidades individuais de cada aluno.</p>
+        <!-- Resumo profissional -->
+        <div class="section-title">RESUMO PROFISSIONAL</div>
+        <p><strong>Professor de inglês</strong>, como Segunda Língua, competente na utilização de métodos de ensino eficazes, centrando-se nas necessidades individuais de cada aluno.</p>
 
+        <!-- Qualificações -->
+        <div class="section-title">QUALIFICAÇÕES DE CURRICULUM VITAE</div>
 
+        <p class="subtitulo">Comunicacionais</p>
+        <ul>
+            <li>Avalie os alunos para identificar suas habilidades, pontos fortes e fracos.</li>
+            <li>Trabalhar com alunos individualmente para desafiá-los e melhorar suas competências.</li>
+        </ul>
+
+        <p class="subtitulo">Competência</p>
+        <ul>
+            <li>Envolver os alunos no aprendizado e adaptar as lições às suas necessidades.</li>
+            <li>Auxiliar os alunos a desenvolver novas habilidades e valorizar o aprendizado.</li>
+        </ul>
+
+        <p class="subtitulo">Conhecedora</p>
+        <ul>
+            <li>Ensinar alunos em turmas completas ou pequenos grupos.</li>
+            <li>Desenvolver e aplicar regras de sala de aula e políticas administrativas.</li>
+        </ul>
+
+        <!-- Histórico profissional -->
+        <div class="section-title">HISTÓRICO PROFISSIONAL</div>
+
+        <div class="historico">
+            <div class="coluna-esquerda">
+                <p>Descrição:</p>
+                <p>Jun 2016 - Atual</p>
+                <p>Professora de Inglês</p>
+                <p>Redonda Universidade - Rio de Janeiro</p>
+            </div>
+
+            <div class="coluna-direita">
+                <p><strong>Desenvolvimento:</strong></p>
+                <ul>
+                    <li>Colaborou com professores e chefes de departamento para cumprir objetivos educativos trimestrais e anuais.</li>
+                    <li>Desenvolveu programas sazonais com ênfase em vocabulário, pronúncia e compreensão escrita.</li>
+                    <li>Enfatizou o pensamento crítico através de pequenas atividades em grupo.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </body>
-html
+</html>
