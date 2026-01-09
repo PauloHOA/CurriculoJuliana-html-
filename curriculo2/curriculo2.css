@@ -1,1 +1,81 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #fff;
+    width: 85%;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+/* Cabeçalho */
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    margin-bottom: 5px;
+    color: #004080;
+}
+
+.header p {
+    margin: 4px 0;
+    color: #333;
+}
+
+/* Faixas cinzas de seção */
+.section-title {
+    background-color: #ddd;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 25px 0 10px;
+    border-radius: 4px;
+}
+
+/* Texto normal */
+p, li {
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Subtítulos */
+.subtitulo {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Estilo da tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 10px;
+    border: none;
+    vertical-align: top;
+    text-align: left;
+} 
+
+td p, td ul {
+    margin: 0;
+}
+
+th {
+    background-color: #eee;
+}
 
