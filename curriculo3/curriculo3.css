@@ -31,7 +31,7 @@ body {
 
 /* Foto (lado esquerdo) */
 .foto {
-  flex: 0 0 40%;
+  flex: 0 0 20%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,7 +47,7 @@ body {
 
 /* Nome e resumo (lado direito) */
 .resumo {
-  flex: 0 0 60%;
+  flex: 0 0 80%;
   padding-left: 20px;
 }
 
