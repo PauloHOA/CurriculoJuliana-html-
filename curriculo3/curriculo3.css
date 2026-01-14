@@ -25,7 +25,8 @@ body {
   display: flex;
   align-items: center;
   padding: 20px;
-  background-color: #e8eef5;
+  background-color: #7c3aed; /* Roxo */
+  color: white;
 }
 
 /* Foto (lado esquerdo - 30%) */
@@ -34,6 +35,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: white;
+  border-radius: 12px;
+  padding: 15px;
 }
 
 .foto img {
@@ -41,7 +45,7 @@ body {
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #4a90e2;
+  border: 3px solid #7c3aed;
 }
 
 /* Nome e resumo (lado direito - 70%) */
@@ -51,31 +55,34 @@ body {
 }
 
 .resumo h1 {
-  font-size: 1.8em;
+  font-size: 2em;
   margin-bottom: 10px;
-  color: #2a5d9f;
+  color: white;
 }
 
 .resumo p {
   font-size: 1em;
   line-height: 1.5;
+  color: #f3f3f3;
 }
 
 /* ===== Parte Inferior ===== */
 .bottom {
   display: flex;
-  padding: 20px;
-  gap: 20px;
+  padding: 0;
 }
 
-/* Lado esquerdo (30%) */
+/* Lado esquerdo (contatos, formação, habilidades, idiomas) */
 .lateral-esquerda {
   flex: 0 0 30%;
+  background-color: #f9e6ef; /* Rosado suave */
+  padding: 20px;
 }
 
-/* Lado direito (70%) */
 .lateral-direita {
   flex: 0 0 70%;
+  background-color: white;
+  padding: 20px;
 }
 
 .lateral-esquerda section,
@@ -84,13 +91,14 @@ body {
 }
 
 h2 {
-  border-bottom: 2px solid #4a90e2;
+  border-bottom: 2px solid #7c3aed;
   padding-bottom: 5px;
   margin-bottom: 10px;
   font-size: 1.2em;
-  color: #2a5d9f;
+  color: #7c3aed;
 }
 
+/* ===== Habilidades e Barras de Nível ===== */
 .skill {
   margin-bottom: 10px;
 }
@@ -103,7 +111,7 @@ h2 {
 }
 
 .nivel {
-  background: #4a90e2;
+  background: #7c3aed;
   height: 100%;
 }
 
@@ -121,5 +129,8 @@ h2 {
     padding-left: 0;
     margin-top: 15px;
   }
-}
 
+  .lateral-esquerda, .lateral-direita {
+    padding: 15px;
+  }
+}
