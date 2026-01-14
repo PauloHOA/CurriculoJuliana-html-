@@ -23,15 +23,14 @@ body {
 /* ===== Parte Superior ===== */
 .top {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 20px;
   background-color: #e8eef5;
 }
 
-/* Foto (lado esquerdo) */
+/* Foto (lado esquerdo - 30%) */
 .foto {
-  flex: 0 0 20%;
+  flex: 0 0 30%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,9 +44,9 @@ body {
   border: 3px solid #4a90e2;
 }
 
-/* Nome e resumo (lado direito) */
+/* Nome e resumo (lado direito - 70%) */
 .resumo {
-  flex: 0 0 80%;
+  flex: 0 0 70%;
   padding-left: 20px;
 }
 
@@ -69,13 +68,14 @@ body {
   gap: 20px;
 }
 
-/* Lado esquerdo (contato, formação, habilidades, idiomas) */
+/* Lado esquerdo (30%) */
 .lateral-esquerda {
-  flex: 0 0 20%;
+  flex: 0 0 30%;
 }
 
+/* Lado direito (70%) */
 .lateral-direita {
-  flex: 0 0 80%;
+  flex: 0 0 70%;
 }
 
 .lateral-esquerda section,
@@ -90,9 +90,6 @@ h2 {
   font-size: 1.2em;
   color: #2a5d9f;
 }
-
-
-
 
 .skill {
   margin-bottom: 10px;
@@ -110,7 +107,7 @@ h2 {
   height: 100%;
 }
 
-
+/* ===== Responsividade ===== */
 @media (max-width: 768px) {
   .top, .bottom {
     flex-direction: column;
@@ -125,3 +122,4 @@ h2 {
     margin-top: 15px;
   }
 }
+
