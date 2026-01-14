@@ -20,15 +20,16 @@ body {
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-
+/* ===== Parte Superior ===== */
 .top {
   display: flex;
   align-items: center;
   padding: 20px;
-  background-color: #7c3aed; 
+  background-color: #7c3aed; /* Roxo */
   color: white;
 }
 
+/* Foto (lado esquerdo - 30%) */
 .foto {
   flex: 0 0 30%;
   display: flex;
@@ -47,6 +48,7 @@ body {
   border: 3px solid #7c3aed;
 }
 
+/* Nome e resumo (lado direito - 70%) */
 .resumo {
   flex: 0 0 70%;
   padding-left: 20px;
@@ -73,7 +75,7 @@ body {
 /* Lado esquerdo (contatos, formação, habilidades, idiomas) */
 .lateral-esquerda {
   flex: 0 0 30%;
-  background-color: #f9e6ef; 
+  background-color: #f9e6ef; /* Rosado suave */
   padding: 20px;
 }
 
@@ -96,7 +98,7 @@ h2 {
   color: #7c3aed;
 }
 
-
+/* ===== Habilidades e Barras de Nível ===== */
 .skill {
   margin-bottom: 10px;
 }
@@ -113,7 +115,7 @@ h2 {
   height: 100%;
 }
 
-
+/* ===== Responsividade ===== */
 @media (max-width: 768px) {
   .top, .bottom {
     flex-direction: column;
