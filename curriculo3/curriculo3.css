@@ -5,6 +5,20 @@
   font-family: Arial, sans-serif;
 }
 
+@media (max-width: 768px) {
+  .linha {
+    flex-direction: column;
+  }
+
+  .topo {
+    height: auto;
+  }
+
+  .foto img {
+    height: 300px;
+  }
+}
+
 body {
   background: #eee;
 }
