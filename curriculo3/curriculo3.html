@@ -3,21 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <title>Currículo Flexbox</title>
-  <link rel="stylesheet" href="curriculo3.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <div class="curriculo">
 
-    
-    <div class="linha linha-topo">
-      <div class="coluna foto">
-        <img src="https://via.placeholder.com/150" alt="Foto">
+    <!-- LINHA SUPERIOR -->
+    <div class="linha topo">
+      <div class="foto">
+        <img src="https://via.placeholder.com/300" alt="Foto">
       </div>
 
-      <div class="coluna descricao">
+      <div class="descricao">
         <h1>Carlos Gonçalves</h1>
-             <p>
+        <p>
           Profissional com 11 anos de experiência no ensino de Matemática. Capaz de se alinhar a diferentes metodologias de ensino
           e usar as principais ferramentas tecnológicas educacionais. Hábil na seleção de materiais didáticos, criação de atividades
           e aplicação de avaliação, com foco na contrução do conhecimento pelos alunos.
@@ -25,25 +25,68 @@
       </div>
     </div>
 
-    
-    <div class="linha linha-conteudo">
-      <div class="coluna contato">
-        <h2>Contato</h2>
-        <p>Email: joao@email.com</p>
-        <p>Telefone: (11) 99999-9999</p>
-        <p>LinkedIn: linkedin.com/in/joao</p>
-      </div>
+   
+    <div class="linha conteudo">
 
-      <div class="coluna profissional">
-        <h2>Profissional</h2>
-        <p><strong>Empresa X</strong> – Desenvolvedor Jr</p>
-        <p>Desenvolvimento de sites e aplicações web.</p>
+     
+      <aside class="lateral">
+        <section>
+          <h2>Contato</h2>
+          <p>📍 Cabo Frio - RJ</p>
+          <p>📞 (22) 23456-7890</p>
+          <p>✉️ carlos@email.com</p>
+        </section>
 
-        <p><strong>Empresa Y</strong> – Estagiário</p>
-        <p>Manutenção e criação de interfaces.</p>
-      </div>
+        <section>
+          <h2>Formação</h2>
+          <p><strong>Mestrado em Matemática</strong></p>
+          <p>UFRJ - 2012</p>
+
+          <p><strong>Licenciatura em Matemática</strong></p>
+          <p>UERJ - 2010</p>
+        </section>
+
+        <section>
+          <h2>Habilidades</h2>
+          <ul>
+            <li>Didática e pedagogia</li>
+            <li>Trabalho em equipe</li>
+            <li>Planejamento educacional</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Idiomas</h2>
+          <p>Espanhol – C1</p>
+          <div class="barra">
+            <div class="nivel"></div>
+          </div>
+        </section>
+      </aside>
+
+      <main class="principal">
+        <h2>Experiência Profissional</h2>
+
+        <div class="experiencia">
+          <h3>Escola Estadual Hermes Barcelos</h3>
+          <span>Professor de Matemática | 2020 - 2023</span>
+          <ul>
+            <li>Planejamento e aplicação de aulas.</li>
+            <li>Acompanhamento do desempenho dos alunos.</li>
+          </ul>
+        </div>
+
+        <div class="experiencia">
+          <h3>Instituto Santa Rosa</h3>
+          <span>Professor de Matemática | 2012 - 2019</span>
+          <ul>
+            <li>Desenvolvimento de avaliações e atividades.</li>
+            <li>Utilização de ferramentas tecnológicas.</li>
+          </ul>
+        </div>
+      </main>
+
     </div>
-
   </div>
 
 </body>
