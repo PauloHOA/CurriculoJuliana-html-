@@ -18,6 +18,9 @@
     height: 300px;
   }
 }
+.formacao {
+  margin-bottom: 15px;
+}
 
 body {
   background: #eee;
