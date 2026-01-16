@@ -1,136 +1,67 @@
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #f4f6f8;
-  color: #333;
-  padding: 20px;
+  background: #f2f2f2;
 }
 
-.container {
-  max-width: 1000px;
-  margin: auto;
-  background: white;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-/* ===== Parte Superior ===== */
-.top {
+.curriculo {
+  max-width: 900px;
+  margin: 30px auto;
+  background: #fff;
   display: flex;
-  align-items: center;
-  padding: 20px;
-  background-color: #7c3aed; /* Roxo */
-  color: white;
+  flex-direction: column;
 }
 
-/* Foto (lado esquerdo - 30%) */
+/* LINHAS */
+.linha {
+  display: flex;
+  width: 100%;
+}
+
+/* COLUNAS */
+.coluna {
+  padding: 20px;
+}
+
+/* PROPORÇÕES */
 .foto {
-  flex: 0 0 30%;
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
-  border-radius: 12px;
-  padding: 15px;
+  background: #ecf0f1;
 }
 
+.descricao {
+  flex: 3;
+}
+
+.contato {
+  flex: 1;
+  background: #ecf0f1;
+}
+
+.profissional {
+  flex: 3;
+}
+
+/* FOTO */
 .foto img {
-  width: 120px;
-  height: 120px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid #7c3aed;
 }
 
-/* Nome e resumo (lado direito - 70%) */
-.resumo {
-  flex: 0 0 70%;
-  padding-left: 20px;
-}
-
-.resumo h1 {
-  font-size: 2em;
-  margin-bottom: 10px;
-  color: white;
-}
-
-.resumo p {
-  font-size: 1em;
-  line-height: 1.5;
-  color: #f3f3f3;
-}
-
-/* ===== Parte Inferior ===== */
-.bottom {
-  display: flex;
-  padding: 0;
-}
-
-/* Lado esquerdo (contatos, formação, habilidades, idiomas) */
-.lateral-esquerda {
-  flex: 0 0 30%;
-  background-color: #f9e6ef; /* Rosado suave */
-  padding: 20px;
-}
-
-.lateral-direita {
-  flex: 0 0 70%;
-  background-color: white;
-  padding: 20px;
-}
-
-.lateral-esquerda section,
-.lateral-direita section {
-  margin-bottom: 20px;
-}
-
-h2 {
-  border-bottom: 2px solid #7c3aed;
-  padding-bottom: 5px;
-  margin-bottom: 10px;
-  font-size: 1.2em;
-  color: #7c3aed;
-}
-
-/* ===== Habilidades e Barras de Nível ===== */
-.skill {
+/* TÍTULOS */
+h1, h2, h3 {
   margin-bottom: 10px;
 }
 
-.barra {
-  background: #ddd;
-  border-radius: 6px;
-  overflow: hidden;
-  height: 8px;
-}
-
-.nivel {
-  background: #7c3aed;
-  height: 100%;
-}
-
-/* ===== Responsividade ===== */
-@media (max-width: 768px) {
-  .top, .bottom {
-    flex-direction: column;
-  }
-
-  .foto, .resumo, .lateral-esquerda, .lateral-direita {
-    flex: 0 0 100%;
-  }
-
-  .resumo {
-    padding-left: 0;
-    margin-top: 15px;
-  }
-
-  .lateral-esquerda, .lateral-direita {
-    padding: 15px;
-  }
+p {
+  margin-bottom: 8px;
 }
